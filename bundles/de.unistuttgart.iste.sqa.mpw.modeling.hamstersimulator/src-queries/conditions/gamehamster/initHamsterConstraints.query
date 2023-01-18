@@ -1,0 +1,9 @@
+context Hamster::initHamster(territory:Territory, location:Location, direction:Direction, grainCount:EInt)
+
+/** the hamster must not be already initialized */
+precondition: 
+    self.stage = null;
+
+/** location has to be on territory */
+precondition: 
+    territory.isLocationInTerritory(location);

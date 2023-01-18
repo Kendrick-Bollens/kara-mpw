@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_wAevcIt_Ee2DGPyCQHrnwg" type="Henshin" name="addMushroomToTile.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_19sUwIt_Ee2DGPyCQHrnwg" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l0QhI4uBEe2hY7BH989lEA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l0RvQIuBEe2hY7BH989lEA" key="value" value="create"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_19sUwYt_Ee2DGPyCQHrnwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_19sUwot_Ee2DGPyCQHrnwg" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_l0SWUIuBEe2hY7BH989lEA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_l0S9YIuBEe2hY7BH989lEA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_l0S9YYuBEe2hY7BH989lEA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_l0S9YouBEe2hY7BH989lEA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_l0S9Y4uBEe2hY7BH989lEA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_l0S9ZIuBEe2hY7BH989lEA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="addMushroomToTile.henshin#_l0QhIIuBEe2hY7BH989lEA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l0SWUYuBEe2hY7BH989lEA" x="61" y="13"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nVV5YIuBEe2hY7BH989lEA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nVV5YouBEe2hY7BH989lEA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_nVV5Y4uBEe2hY7BH989lEA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_nVV5ZIuBEe2hY7BH989lEA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_nVV5ZYuBEe2hY7BH989lEA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_nVV5ZouBEe2hY7BH989lEA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="addMushroomToTile.henshin#_nVVSUIuBEe2hY7BH989lEA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nVV5YYuBEe2hY7BH989lEA" x="61" y="174"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_oA6l8IuBEe2hY7BH989lEA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_oA6l8ouBEe2hY7BH989lEA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_oA6l84uBEe2hY7BH989lEA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_oA6l9IuBEe2hY7BH989lEA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_oA6l9YuBEe2hY7BH989lEA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_oA6l9ouBEe2hY7BH989lEA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="addMushroomToTile.henshin#_oA5-4IuBEe2hY7BH989lEA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oA6l8YuBEe2hY7BH989lEA" x="338" y="174"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_o4GFkIuBEe2hY7BH989lEA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_o4GFkouBEe2hY7BH989lEA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_o4GFk4uBEe2hY7BH989lEA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_o4GFlIuBEe2hY7BH989lEA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_5OpdQIuBEe2hY7BH989lEA" type="3002">
+            <element xmi:type="henshin:Attribute" href="addMushroomToTile.henshin#_5Oly4IuBEe2hY7BH989lEA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5OpdQYuBEe2hY7BH989lEA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6_HVUIuBEe2hY7BH989lEA" type="3002">
+            <element xmi:type="henshin:Attribute" href="addMushroomToTile.henshin#_6_GuQIuBEe2hY7BH989lEA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6_HVUYuBEe2hY7BH989lEA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_o4GFlYuBEe2hY7BH989lEA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_o4GFlouBEe2hY7BH989lEA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="addMushroomToTile.henshin#_o4FegIuBEe2hY7BH989lEA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o4GFkYuBEe2hY7BH989lEA" x="1" y="354"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="addMushroomToTile.henshin#_19s70It_Ee2DGPyCQHrnwg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19sU34t_Ee2DGPyCQHrnwg" x="10" y="10" width="551" height="482"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_wAevcYt_Ee2DGPyCQHrnwg"/>
+  <element xmi:type="henshin:Module" href="addMushroomToTile.henshin#_wAcTMIt_Ee2DGPyCQHrnwg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_pvBtkIuBEe2hY7BH989lEA" type="4001" source="_nVV5YIuBEe2hY7BH989lEA" target="_o4GFkIuBEe2hY7BH989lEA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pvCUoIuBEe2hY7BH989lEA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pvCUoYuBEe2hY7BH989lEA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pvCUoouBEe2hY7BH989lEA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pvCUo4uBEe2hY7BH989lEA" x="-23" y="41"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pvBtkYuBEe2hY7BH989lEA" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="addMushroomToTile.henshin#_pvBGgIuBEe2hY7BH989lEA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pvBtkouBEe2hY7BH989lEA" points="[2, 26, -30, -148]$[-6, 179, -38, 5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qqsEkIuBEe2hY7BH989lEA" type="4001" source="_nVV5YIuBEe2hY7BH989lEA" target="_oA6l8IuBEe2hY7BH989lEA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qqsEk4uBEe2hY7BH989lEA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qqsElIuBEe2hY7BH989lEA" x="1" y="35"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qqsElYuBEe2hY7BH989lEA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qqsElouBEe2hY7BH989lEA" x="2" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qqsEkYuBEe2hY7BH989lEA" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="addMushroomToTile.henshin#_qqrdgIuBEe2hY7BH989lEA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qqsEkouBEe2hY7BH989lEA" points="[38, 4, -216, -11]$[248, -11, -6, -26]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rBpMAIuBEe2hY7BH989lEA" type="4001" source="_l0SWUIuBEe2hY7BH989lEA" target="_oA6l8IuBEe2hY7BH989lEA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rBpMA4uBEe2hY7BH989lEA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rBpMBIuBEe2hY7BH989lEA" x="99" y="69"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rBpMBYuBEe2hY7BH989lEA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rBpMBouBEe2hY7BH989lEA" x="90" y="45"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rBpMAYuBEe2hY7BH989lEA" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="addMushroomToTile.henshin#_rBok8IuBEe2hY7BH989lEA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rBpMAouBEe2hY7BH989lEA" points="[38, 0, -240, -161]$[278, 0, 0, -161]$[278, 135, 0, -26]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_riU3MIuBEe2hY7BH989lEA" type="4001" source="_l0SWUIuBEe2hY7BH989lEA" target="_nVV5YIuBEe2hY7BH989lEA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_riU3M4uBEe2hY7BH989lEA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_riU3NIuBEe2hY7BH989lEA" x="-2" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_riU3NYuBEe2hY7BH989lEA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_riU3NouBEe2hY7BH989lEA" x="-25" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_riU3MYuBEe2hY7BH989lEA" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="addMushroomToTile.henshin#_riUQIIuBEe2hY7BH989lEA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_riU3MouBEe2hY7BH989lEA" points="[8, 26, -25, -109]$[41, 109, 8, -26]"/>
+  </edges>
+</notation:Diagram>

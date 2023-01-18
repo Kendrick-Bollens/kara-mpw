@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VcDBwI3gEe2QHpBzNI9S3w" name="pickClover">
+  <imports href="http://www.mpw.uni-stuttgart.de/mpw#/"/>
+  <imports href="../../model/Hamster.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_ZnXLoI3gEe2QHpBzNI9S3w" name="pickClover">
+    <lhs xmi:id="_ZnXysI3gEe2QHpBzNI9S3w" name="Lhs">
+      <nodes xmi:id="_boBb0I3gEe2QHpBzNI9S3w" incoming="_kgB-UI3gEe2QHpBzNI9S3w" outgoing="_gS3aUI3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Tile"/>
+      </nodes>
+      <nodes xmi:id="_dBESYI3gEe2QHpBzNI9S3w" name="self" incoming="_iEizUI3gEe2QHpBzNI9S3w" outgoing="_icQvwI3gEe2QHpBzNI9S3w _kgB-UI3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+      </nodes>
+      <nodes xmi:id="_dk-QsI3gEe2QHpBzNI9S3w" incoming="_gS3aUI3gEe2QHpBzNI9S3w" outgoing="_gh2RgI3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Clover"/>
+      </nodes>
+      <nodes xmi:id="_d5bdwI3gEe2QHpBzNI9S3w" incoming="_gh2RgI3gEe2QHpBzNI9S3w _icQvwI3gEe2QHpBzNI9S3w" outgoing="_iEizUI3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Territory"/>
+      </nodes>
+      <edges xmi:id="_gS3aUI3gEe2QHpBzNI9S3w" source="_boBb0I3gEe2QHpBzNI9S3w" target="_dk-QsI3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Tile/contents"/>
+      </edges>
+      <edges xmi:id="_gh2RgI3gEe2QHpBzNI9S3w" source="_dk-QsI3gEe2QHpBzNI9S3w" target="_d5bdwI3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/stage"/>
+      </edges>
+      <edges xmi:id="_iEizUI3gEe2QHpBzNI9S3w" source="_d5bdwI3gEe2QHpBzNI9S3w" target="_dBESYI3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Stage/tileContents"/>
+      </edges>
+      <edges xmi:id="_icQvwI3gEe2QHpBzNI9S3w" source="_dBESYI3gEe2QHpBzNI9S3w" target="_d5bdwI3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/stage"/>
+      </edges>
+      <edges xmi:id="_kgB-UI3gEe2QHpBzNI9S3w" source="_dBESYI3gEe2QHpBzNI9S3w" target="_boBb0I3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/currentTile"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_ZnXysY3gEe2QHpBzNI9S3w" name="Rhs">
+      <nodes xmi:id="_boBb0Y3gEe2QHpBzNI9S3w" incoming="_kgB-UY3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Tile"/>
+      </nodes>
+      <nodes xmi:id="_dBESYY3gEe2QHpBzNI9S3w" incoming="_iEizUY3gEe2QHpBzNI9S3w" outgoing="_icRW0I3gEe2QHpBzNI9S3w _kgB-UY3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+      </nodes>
+      <nodes xmi:id="_dk-QsY3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Clover"/>
+      </nodes>
+      <nodes xmi:id="_d5bdwY3gEe2QHpBzNI9S3w" incoming="_icRW0I3gEe2QHpBzNI9S3w" outgoing="_iEizUY3gEe2QHpBzNI9S3w">
+        <type href="../../model/Hamster.ecore#//Territory"/>
+      </nodes>
+      <edges xmi:id="_iEizUY3gEe2QHpBzNI9S3w" source="_d5bdwY3gEe2QHpBzNI9S3w" target="_dBESYY3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Stage/tileContents"/>
+      </edges>
+      <edges xmi:id="_icRW0I3gEe2QHpBzNI9S3w" source="_dBESYY3gEe2QHpBzNI9S3w" target="_d5bdwY3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/stage"/>
+      </edges>
+      <edges xmi:id="_kgB-UY3gEe2QHpBzNI9S3w" source="_dBESYY3gEe2QHpBzNI9S3w" target="_boBb0Y3gEe2QHpBzNI9S3w">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/currentTile"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_boBb0o3gEe2QHpBzNI9S3w" origin="_boBb0I3gEe2QHpBzNI9S3w" image="_boBb0Y3gEe2QHpBzNI9S3w"/>
+    <mappings xmi:id="_dBESYo3gEe2QHpBzNI9S3w" origin="_dBESYI3gEe2QHpBzNI9S3w" image="_dBESYY3gEe2QHpBzNI9S3w"/>
+    <mappings xmi:id="_dk-Qso3gEe2QHpBzNI9S3w" origin="_dk-QsI3gEe2QHpBzNI9S3w" image="_dk-QsY3gEe2QHpBzNI9S3w"/>
+    <mappings xmi:id="_d5bdwo3gEe2QHpBzNI9S3w" origin="_d5bdwI3gEe2QHpBzNI9S3w" image="_d5bdwY3gEe2QHpBzNI9S3w"/>
+  </units>
+</henshin:Module>
