@@ -61,8 +61,7 @@ public class GameStringifier {
 
 	private static void handleCell(TerritoryBuilder territoryBuilder, int x, int y, char cell) {
 		switch (cell) {
-			case '>', '<', '^', 'v' -> territoryBuilder.initDefaultHamster(x, y, DirectionTestHelper.toDirection(cell), 0);
-			case '*' -> territoryBuilder.addGrainsToTile(x, y, 1);
+			case '>', '<', '^', 'v' -> territoryBuilder.initDefaultHamster(x, y, DirectionTestHelper.toDirection(cell));
 			case '#' -> territoryBuilder.addWallToTile(x, y);
 		}
 	}

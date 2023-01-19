@@ -2,7 +2,7 @@
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_vBLeUY3fEe2QHpBzNI9S3w" type="Henshin" name="putClover.henshin_diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_0aLjUY3fEe2QHpBzNI9S3w" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1eVvA43fEe2QHpBzNI9S3w" source="defaultAction">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1eVvBI3fEe2QHpBzNI9S3w" key="value" value="preserve"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1eVvBI3fEe2QHpBzNI9S3w" key="value" value="create"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_0aLjU43fEe2QHpBzNI9S3w" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_0aLjVI3fEe2QHpBzNI9S3w" type="7001">

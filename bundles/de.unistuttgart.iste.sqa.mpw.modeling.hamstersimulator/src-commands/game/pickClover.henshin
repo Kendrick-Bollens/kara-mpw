@@ -39,9 +39,6 @@
       <nodes xmi:id="_dBESYY3gEe2QHpBzNI9S3w" name="self" incoming="_iEizUY3gEe2QHpBzNI9S3w" outgoing="_icRW0I3gEe2QHpBzNI9S3w _kgB-UY3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Hamster"/>
       </nodes>
-      <nodes xmi:id="_dk-QsY3gEe2QHpBzNI9S3w">
-        <type href="../../model/Hamster.ecore#//Clover"/>
-      </nodes>
       <nodes xmi:id="_d5bdwY3gEe2QHpBzNI9S3w" incoming="_icRW0I3gEe2QHpBzNI9S3w" outgoing="_iEizUY3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Territory"/>
       </nodes>
@@ -57,7 +54,6 @@
     </rhs>
     <mappings xmi:id="_boBb0o3gEe2QHpBzNI9S3w" origin="_boBb0I3gEe2QHpBzNI9S3w" image="_boBb0Y3gEe2QHpBzNI9S3w"/>
     <mappings xmi:id="_dBESYo3gEe2QHpBzNI9S3w" origin="_dBESYI3gEe2QHpBzNI9S3w" image="_dBESYY3gEe2QHpBzNI9S3w"/>
-    <mappings xmi:id="_dk-Qso3gEe2QHpBzNI9S3w" origin="_dk-QsI3gEe2QHpBzNI9S3w" image="_dk-QsY3gEe2QHpBzNI9S3w"/>
     <mappings xmi:id="_d5bdwo3gEe2QHpBzNI9S3w" origin="_d5bdwI3gEe2QHpBzNI9S3w" image="_d5bdwY3gEe2QHpBzNI9S3w"/>
   </units>
 </henshin:Module>

@@ -19,10 +19,6 @@ public class Example01 extends SimpleHamsterGame {
             paule.write("Hallo!");
             paule.move();
             paule.move();
-            paule.pickGrain();
-            paule.pickGrain();
-            paule.putGrain();
-            paule.putGrain();
             paule.turnLeft();
             paule.turnLeft();
             paule.move();

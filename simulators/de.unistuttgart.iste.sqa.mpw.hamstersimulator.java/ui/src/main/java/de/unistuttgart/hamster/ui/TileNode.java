@@ -34,6 +34,8 @@ public class TileNode extends StackPane {
         for (int i = 1; i <= 12; i++) {
             images.put(i + "Corn", new Image("images/" + i + "Corn32.png"));
         }
+        images.put("Clover", new Image("images/Clover32.png"));
+        images.put("Mushroom", new Image("images/Mushroom32.png"));
     }
 
     private final ViewModelCell viewModelCell;

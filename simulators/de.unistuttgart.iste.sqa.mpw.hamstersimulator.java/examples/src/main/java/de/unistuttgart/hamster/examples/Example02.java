@@ -18,16 +18,13 @@ public class Example02 extends SimpleHamsterGame {
     protected void run() {
         displayInNewGameWindow();
 
-        paula = new Hamster(game.getTerritory(), paule.getLocation(), paule.getDirection(), 1);
+        paula = new Hamster(game.getTerritory(), paule.getLocation(), paule.getDirection());
         paula.move();
-        paula.putGrain();
         paula.move();
 
         paule.move();
-        paule.pickGrain();
         paule.turnLeft();
         paule.turnLeft();
         paule.move();
-        paule.putGrain();
     }
 }

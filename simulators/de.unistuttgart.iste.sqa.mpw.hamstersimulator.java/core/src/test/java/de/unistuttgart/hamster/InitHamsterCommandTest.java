@@ -13,40 +13,32 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class InitHamsterCommandTest {
 	
 	@Test
-	public void testInitHamsterOn1x1_and4Grains() {
+	public void testInitHamsterOn1x1_and4() {
 		HamsterGame game = GameStringifier.createFromStringStarted("   ;" +
 															       "   ;");
 
 		var sut = game.getTerritory().getDefaultHamster();
-		sut.init(game.getTerritory(), locationOf(1, 1), Direction.SOUTH, 4);
+		sut.init(game.getTerritory(), locationOf(1, 1), Direction.SOUTH);
 
 		String actual = GameStringifier.toString(game);
 		assertEquals("   ;" +
 				     " v ;", actual);
-		assertEquals(4, sut.getInternalHamster().getGrains().size());
+
 	}
 
 
-	@Test
-	public void testInitHamster_invalidGrainCount() {
-		HamsterGame game = GameStringifier.createFromStringStarted(" ;");
 
-		var sut = game.getTerritory().getDefaultHamster();
-		assertThrows(CommandConstraintException.class, () -> {
-			sut.init(game.getTerritory(), locationOf(0, 0), Direction.SOUTH, -1);
-		});
-	}
 
 	@Test
 	public void testUndoInitHamster() {
 		HamsterGame game = GameStringifier.createFromStringStarted("  ;");
 
 		var sut = game.getTerritory().getDefaultHamster();
-		sut.init(game.getTerritory(), locationOf(0, 0), Direction.SOUTH, 2);
+		sut.init(game.getTerritory(), locationOf(0, 0), Direction.SOUTH);
 		game.getGameCommandStack().undo();
 
 		assertEquals(null, sut.getInternalHamster().getDirection());
-		assertEquals(0, sut.getInternalHamster().getGrains().size());
+
 	}
 
 	private Location locationOf(int column, int row) {

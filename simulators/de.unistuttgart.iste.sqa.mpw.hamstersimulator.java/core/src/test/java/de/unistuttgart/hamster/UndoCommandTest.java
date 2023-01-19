@@ -20,7 +20,7 @@ public class UndoCommandTest {
 
 		var hamster = game.getTerritory().getDefaultHamster();
 		hamster.move();
-		hamster.pickGrain();
+
 
 		hamster.turnLeft();
 		hamster.turnLeft();
@@ -53,7 +53,7 @@ public class UndoCommandTest {
 		var hamster = game.getTerritory().getDefaultHamster();
 		hamster.move();
 		hamster.write("text");
-		hamster.pickGrain();
+
 		assertEquals("Move|text|Pick Grain", logToString(game));
 
 		commandStack.undo();

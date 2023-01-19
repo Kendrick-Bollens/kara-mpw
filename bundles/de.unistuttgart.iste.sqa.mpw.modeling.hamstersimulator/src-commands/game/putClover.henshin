@@ -7,9 +7,6 @@
       <nodes xmi:id="_3mkm0I3fEe2QHpBzNI9S3w" name="self" incoming="_D3iCII3gEe2QHpBzNI9S3w" outgoing="_ERI08I3gEe2QHpBzNI9S3w _FN5_MI3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Hamster"/>
       </nodes>
-      <nodes xmi:id="_5R3D8I3fEe2QHpBzNI9S3w">
-        <type href="../../model/Hamster.ecore#//Clover"/>
-      </nodes>
       <nodes xmi:id="_5wtjII3fEe2QHpBzNI9S3w" incoming="_ERI08I3gEe2QHpBzNI9S3w" outgoing="_D3iCII3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Territory"/>
       </nodes>
@@ -30,7 +27,7 @@
       <nodes xmi:id="_3mkm0Y3fEe2QHpBzNI9S3w" name="self" incoming="_D3iCIY3gEe2QHpBzNI9S3w" outgoing="_ERI08Y3gEe2QHpBzNI9S3w _FN5_MY3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Hamster"/>
       </nodes>
-      <nodes xmi:id="_5R3D8Y3fEe2QHpBzNI9S3w" incoming="_B49coI3gEe2QHpBzNI9S3w" outgoing="_CRWHcI3gEe2QHpBzNI9S3w">
+      <nodes xmi:id="_5R3D8I3fEe2QHpBzNI9S3w" incoming="_B49coI3gEe2QHpBzNI9S3w" outgoing="_CRWHcI3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Clover"/>
       </nodes>
       <nodes xmi:id="_5wtjIY3fEe2QHpBzNI9S3w" incoming="_ERI08Y3gEe2QHpBzNI9S3w _CRWHcI3gEe2QHpBzNI9S3w" outgoing="_D3iCIY3gEe2QHpBzNI9S3w">
@@ -48,15 +45,14 @@
       <edges xmi:id="_FN5_MY3gEe2QHpBzNI9S3w" source="_3mkm0Y3fEe2QHpBzNI9S3w" target="_7LllsY3fEe2QHpBzNI9S3w">
         <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/currentTile"/>
       </edges>
-      <edges xmi:id="_B49coI3gEe2QHpBzNI9S3w" source="_7LllsY3fEe2QHpBzNI9S3w" target="_5R3D8Y3fEe2QHpBzNI9S3w">
+      <edges xmi:id="_B49coI3gEe2QHpBzNI9S3w" source="_7LllsY3fEe2QHpBzNI9S3w" target="_5R3D8I3fEe2QHpBzNI9S3w">
         <type href="http://www.mpw.uni-stuttgart.de/mpw#//Tile/contents"/>
       </edges>
-      <edges xmi:id="_CRWHcI3gEe2QHpBzNI9S3w" source="_5R3D8Y3fEe2QHpBzNI9S3w" target="_5wtjIY3fEe2QHpBzNI9S3w">
+      <edges xmi:id="_CRWHcI3gEe2QHpBzNI9S3w" source="_5R3D8I3fEe2QHpBzNI9S3w" target="_5wtjIY3fEe2QHpBzNI9S3w">
         <type href="http://www.mpw.uni-stuttgart.de/mpw#//TileContent/stage"/>
       </edges>
     </rhs>
     <mappings xmi:id="_3mkm0o3fEe2QHpBzNI9S3w" origin="_3mkm0I3fEe2QHpBzNI9S3w" image="_3mkm0Y3fEe2QHpBzNI9S3w"/>
-    <mappings xmi:id="_5R3D8o3fEe2QHpBzNI9S3w" origin="_5R3D8I3fEe2QHpBzNI9S3w" image="_5R3D8Y3fEe2QHpBzNI9S3w"/>
     <mappings xmi:id="_5wtjIo3fEe2QHpBzNI9S3w" origin="_5wtjII3fEe2QHpBzNI9S3w" image="_5wtjIY3fEe2QHpBzNI9S3w"/>
     <mappings xmi:id="_7Lllso3fEe2QHpBzNI9S3w" origin="_7LllsI3fEe2QHpBzNI9S3w" image="_7LllsY3fEe2QHpBzNI9S3w"/>
   </units>

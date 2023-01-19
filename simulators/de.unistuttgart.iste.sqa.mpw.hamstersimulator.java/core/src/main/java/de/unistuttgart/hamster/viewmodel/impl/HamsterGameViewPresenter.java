@@ -52,7 +52,9 @@ public class HamsterGameViewPresenter extends GameViewPresenterBase {
 	@Override
 	protected void onSetTileNodeAtForCell(final ViewModelCell cell, final Tile tile) {
 		configureWallImageView(cell, tile);
-		configureGrainImageView(cell, tile);
+		configureMushroomImageView(cell, tile);
+		configureCloverImageView(cell, tile);
+
 
 		final Optional<ReadOnlyHamster> hamsterOptional = findHamsterOnTile(tile);
 		hamsterOptional.ifPresent(readOnlyHamster -> configureHamsterImageView(cell, readOnlyHamster));
@@ -74,29 +76,30 @@ public class HamsterGameViewPresenter extends GameViewPresenterBase {
 	private void refreshWallLayer(final ViewModelCellLayer layer, final Tile tile) {
 		layer.setVisible(tile.getContents().stream().anyMatch(Wall.class::isInstance));
 	}
-
-	private void configureGrainImageView(final ViewModelCell cell, final Tile tile) {
+	
+	private void configureMushroomImageView(final ViewModelCell cell, final Tile tile) {
 		final var layer = new ViewModelCellLayer();
-		refreshGrainLayer(layer, tile);
+		layer.setImageName("Mushroom");
+		refreshMushroomLayer(layer, tile);
 		cell.getLayers().add(layer);
 	}
 
-	private void refreshGrainLayer(final ViewModelCellLayer layer, final Tile tile) {
-		final int grainCount = getGrainOfTile(tile).size();
-		layer.setVisible(grainCount > 0);
-
-		if (grainCount <= 12) {
-			layer.setImageName(grainCount + "Corn");
-		} else {
-			layer.setImageName("12PlusCorn");
-		}
+	private void refreshMushroomLayer(final ViewModelCellLayer layer, final Tile tile) {
+		layer.setVisible(tile.getContents().stream().anyMatch(Mushroom.class::isInstance));
 	}
 
-	private List<Grain> getGrainOfTile(final Tile tile) {
-		return tile.getContents().stream()
-				.filter(Grain.class::isInstance)
-				.map(Grain.class::cast)
-				.collect(Collectors.toList());
+	// create a layer for the clover image
+	private void configureCloverImageView(final ViewModelCell cell, final Tile tile) {
+		final var layer = new ViewModelCellLayer();
+		layer.setImageName("Clover");
+		refreshCloverLayer(layer, tile);
+		cell.getLayers().add(layer);
+	}
+
+	// set the clover visibility to true, if the tile contains a Clover object
+	private void refreshCloverLayer(final ViewModelCellLayer layer, final Tile tile) {
+		final boolean containsClover = tile.getContents().stream().anyMatch(Clover.class::isInstance);
+		layer.setVisible(containsClover);
 	}
 
 	private void configureHamsterImageView(final ViewModelCell cell, final ReadOnlyHamster hamster) {

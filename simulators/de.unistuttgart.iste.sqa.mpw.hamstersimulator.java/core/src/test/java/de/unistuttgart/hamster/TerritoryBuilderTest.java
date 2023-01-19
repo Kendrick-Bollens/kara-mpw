@@ -87,9 +87,6 @@ public class TerritoryBuilderTest {
 	public void givenTerritory1x1_andStartedGame_whenAddGrainsToTile_thenExceptionIsThrown() {
 		withTerritory(" ;");
 		startGame();
-		assertThrows(IllegalStateException.class, () -> {
-			sut.addGrainsToTile(locationOf(0, 0), amountOf(5));
-		});
 	}
 
 	@Test // Scenario: init clears previous territory
@@ -97,7 +94,7 @@ public class TerritoryBuilderTest {
 		withTerritory("v *;" +
 				      " # ;");
 		sut.initTerritory(1, 1)
-		   .initDefaultHamster(0, 0, Direction.NORTH, 1);
+		   .initDefaultHamster(0, 0, Direction.NORTH,);
 		assertTerritory("^;");
 	}
 

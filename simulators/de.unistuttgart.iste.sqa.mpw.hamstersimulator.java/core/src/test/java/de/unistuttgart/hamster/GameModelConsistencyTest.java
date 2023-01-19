@@ -26,7 +26,7 @@ public class GameModelConsistencyTest {
 	public void given1x1Territory_whenAddGrainToTile_thenIsConsistent() {
 		withTerritoryBuilder()
 				.initTerritory(1, 1)
-				.addGrainsToTile(0, 0, amountOf(1));
+
 		assertIsConsistent();
 	}
 
