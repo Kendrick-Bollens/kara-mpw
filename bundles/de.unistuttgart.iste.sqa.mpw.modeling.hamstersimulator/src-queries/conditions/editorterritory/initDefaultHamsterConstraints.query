@@ -1,4 +1,4 @@
-context Territory::initDefaultHamster(location:Location, direction:Direction, grainCount:EInt)
+context Territory::initDefaultHamster(location:Location, direction:Direction)
 
 /** hamster must not be already initialized */
 precondition: 

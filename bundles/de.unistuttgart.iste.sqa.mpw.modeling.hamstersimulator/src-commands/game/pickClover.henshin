@@ -36,7 +36,7 @@
       <nodes xmi:id="_boBb0Y3gEe2QHpBzNI9S3w" incoming="_kgB-UY3gEe2QHpBzNI9S3w">
         <type href="http://www.mpw.uni-stuttgart.de/mpw#//Tile"/>
       </nodes>
-      <nodes xmi:id="_dBESYY3gEe2QHpBzNI9S3w" incoming="_iEizUY3gEe2QHpBzNI9S3w" outgoing="_icRW0I3gEe2QHpBzNI9S3w _kgB-UY3gEe2QHpBzNI9S3w">
+      <nodes xmi:id="_dBESYY3gEe2QHpBzNI9S3w" name="self" incoming="_iEizUY3gEe2QHpBzNI9S3w" outgoing="_icRW0I3gEe2QHpBzNI9S3w _kgB-UY3gEe2QHpBzNI9S3w">
         <type href="../../model/Hamster.ecore#//Hamster"/>
       </nodes>
       <nodes xmi:id="_dk-QsY3gEe2QHpBzNI9S3w">

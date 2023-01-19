@@ -1,4 +1,4 @@
-context Territory::addWallToTile(location:Location)
+context Territory::addMushroomToTile(location:Location)
 
 /** location has to be on territory */
 precondition: 

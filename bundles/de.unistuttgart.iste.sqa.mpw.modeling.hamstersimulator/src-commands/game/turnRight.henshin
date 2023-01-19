@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_cv5SIJgNEe2WMZ0WSxPfaw" name="turnRight" description="">
+  <units xsi:type="henshin:Rule" xmi:id="_hLWJzZgNEe2WMZ0WSxPfaw" name="turnRightNorth">
+    <lhs xmi:id="_hLWJzpgNEe2WMZ0WSxPfaw" name="Lhs">
+      <nodes xmi:id="_hLWJz5gNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLWJ0JgNEe2WMZ0WSxPfaw" value="&quot;NORTH&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_hLWJ0ZgNEe2WMZ0WSxPfaw" name="Rhs">
+      <nodes xmi:id="_hLWJ0pgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLWJ05gNEe2WMZ0WSxPfaw" value="&quot;EAST&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_hLWJ1JgNEe2WMZ0WSxPfaw" origin="_hLWJz5gNEe2WMZ0WSxPfaw" image="_hLWJ0pgNEe2WMZ0WSxPfaw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_hLXX4JgNEe2WMZ0WSxPfaw" name="turnRightSouth">
+    <lhs xmi:id="_hLXX4ZgNEe2WMZ0WSxPfaw" name="Lhs">
+      <nodes xmi:id="_hLXX4pgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX45gNEe2WMZ0WSxPfaw" value="&quot;SOUTH&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_hLXX5JgNEe2WMZ0WSxPfaw" name="Rhs">
+      <nodes xmi:id="_hLXX5ZgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX5pgNEe2WMZ0WSxPfaw" value="&quot;WEST&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_hLXX55gNEe2WMZ0WSxPfaw" origin="_hLXX4pgNEe2WMZ0WSxPfaw" image="_hLXX5ZgNEe2WMZ0WSxPfaw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_hLXX6JgNEe2WMZ0WSxPfaw" name="turnRightWest">
+    <lhs xmi:id="_hLXX6ZgNEe2WMZ0WSxPfaw" name="Lhs">
+      <nodes xmi:id="_hLXX6pgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX65gNEe2WMZ0WSxPfaw" value="&quot;WEST&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_hLXX7JgNEe2WMZ0WSxPfaw" name="Rhs">
+      <nodes xmi:id="_hLXX7ZgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX7pgNEe2WMZ0WSxPfaw" value="&quot;NORTH&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_hLXX75gNEe2WMZ0WSxPfaw" origin="_hLXX6pgNEe2WMZ0WSxPfaw" image="_hLXX7ZgNEe2WMZ0WSxPfaw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_hLXX8JgNEe2WMZ0WSxPfaw" name="turnRightEast">
+    <lhs xmi:id="_hLXX8ZgNEe2WMZ0WSxPfaw" name="Lhs">
+      <nodes xmi:id="_hLXX8pgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX85gNEe2WMZ0WSxPfaw" value="&quot;EAST&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_hLXX9JgNEe2WMZ0WSxPfaw" name="Rhs">
+      <nodes xmi:id="_hLXX9ZgNEe2WMZ0WSxPfaw" name="self">
+        <type href="../../model/Hamster.ecore#//Hamster"/>
+        <attributes xmi:id="_hLXX9pgNEe2WMZ0WSxPfaw" value="&quot;SOUTH&quot;">
+          <type href="http://www.mpw.uni-stuttgart.de/mpw#//Actor/direction"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_hLXX95gNEe2WMZ0WSxPfaw" origin="_hLXX8pgNEe2WMZ0WSxPfaw" image="_hLXX9ZgNEe2WMZ0WSxPfaw"/>
+  </units>
+</henshin:Module>
