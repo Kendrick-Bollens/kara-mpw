@@ -29,3 +29,6 @@ Hier sind zwei Wege über die dies erreicht werden kann
   1.
 7. Projekt ausführen und code generieren.
   1.
+
+
+Repo für die UI: https://github.com/meekhrc/Kara-generated-gui
