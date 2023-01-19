@@ -1,5 +1,5 @@
 # mgse-kara
-Dies ist eine Umwandlung des Projektes (MPW-Hamster)[https://github.com/SQAHamster/mpw-modeling-hamster] auf "Kara der Marienkäfer"  um zu testen wie leicht es wäre es zu erweitern
+Dies ist eine Umwandlung des Projektes [MPW-Hamster](https://github.com/SQAHamster/mpw-modeling-hamster) auf "Kara der Marienkäfer"  um zu testen wie leicht es wäre es zu erweitern
 
 ## Aufsetzen
 
