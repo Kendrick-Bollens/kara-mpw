@@ -1,14 +1,14 @@
 package de.unistuttgart.hamster.examples;
 
+import de.unistuttgart.hamster.facade.Ladybug;
 import de.unistuttgart.hamster.main.SimpleHamsterGame;
-import de.unistuttgart.hamster.facade.Hamster;
 
 public class Example02 extends SimpleHamsterGame {
     public static void main(final String[] args) {
         createInstance(Example02.class);
     }
 
-    Hamster paula;
+    Ladybug paula;
 
     /**
      * Another hamster program. The idea is to create Paula close to Paula with
@@ -18,13 +18,13 @@ public class Example02 extends SimpleHamsterGame {
     protected void run() {
         displayInNewGameWindow();
 
-        paula = new Hamster(game.getTerritory(), paule.getLocation(), paule.getDirection());
+        paula = new Ladybug(game.getTerritory(), kara.getLocation(), kara.getDirection());
         paula.move();
         paula.move();
 
-        paule.move();
-        paule.turnLeft();
-        paule.turnLeft();
-        paule.move();
+        kara.move();
+        kara.turnLeft();
+        kara.turnLeft();
+        kara.move();
     }
 }

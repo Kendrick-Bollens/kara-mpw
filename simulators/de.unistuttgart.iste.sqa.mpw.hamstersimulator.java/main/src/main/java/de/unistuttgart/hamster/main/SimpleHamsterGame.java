@@ -1,7 +1,7 @@
 package de.unistuttgart.hamster.main;
 
+import de.unistuttgart.hamster.facade.Ladybug;
 import de.unistuttgart.hamster.facade.TerritoryLoader;
-import de.unistuttgart.hamster.facade.Hamster;
 import de.unistuttgart.hamster.facade.HamsterGame;
 import de.unistuttgart.hamster.ui.JavaFXUI;
 import de.unistuttgart.iste.sqa.mpw.framework.exceptions.GameAbortedException;
@@ -35,7 +35,7 @@ public abstract class SimpleHamsterGame {
      * which is named hamster here. Intentionally, no getter or setter is used
      * as they are introduced only after lecture 2.
      */
-    protected final Hamster paule;
+    protected final Ladybug kara;
 
     /**
      * The game object of this simple game. Can be used to start, stop, reset,
@@ -64,7 +64,7 @@ public abstract class SimpleHamsterGame {
         initializeGame();
         game.startGamePaused();
 
-        this.paule = this.game.getTerritory().getDefaultHamster();
+        this.kara = this.game.getTerritory().getDefaultHamster();
     }
 
     /**

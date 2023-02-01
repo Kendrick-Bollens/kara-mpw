@@ -16,15 +16,15 @@ public class Example01 extends SimpleHamsterGame {
     protected void run() {
         displayInNewGameWindow();
         for (int i = 0; i < SCENARIO_REPETITION_COUNT; i++) {
-            paule.write("Hallo!");
-            paule.move();
-            paule.move();
-            paule.turnLeft();
-            paule.turnLeft();
-            paule.move();
-            paule.move();
-            paule.turnLeft();
-            paule.turnLeft();
+            kara.write("Hallo!");
+            kara.move();
+            kara.move();
+            kara.turnLeft();
+            kara.turnLeft();
+            kara.move();
+            kara.move();
+            kara.turnLeft();
+            kara.turnLeft();
         }
     }
 

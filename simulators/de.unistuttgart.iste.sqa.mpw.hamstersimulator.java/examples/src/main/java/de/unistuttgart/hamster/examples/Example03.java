@@ -17,12 +17,12 @@ public class Example03 extends SimpleHamsterGame {
         startGame();
 
         turnRight();
-        paule.move();
+        kara.move();
     }
 
     void turnRight() {
-        paule.turnLeft();
-        paule.turnLeft();
-        paule.turnLeft();
+        kara.turnLeft();
+        kara.turnLeft();
+        kara.turnLeft();
     }
 }

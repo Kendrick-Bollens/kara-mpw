@@ -17,25 +17,22 @@ public class TileNode extends StackPane {
     private static final Map<String, Image> images = new HashMap<>();
 
     static {
-        loadHamsterImages();
+        loadLadybugImages();
         loadPropImages();
     }
 
-    private static void loadHamsterImages() {
-        var hamsterImage = new Image("images/Hamster32.png");
+    private static void loadLadybugImages() {
+        var ladybugImage = new Image("images/kara.png");
         for (Color color : Color.values()) {
-            var colorizedHamsterImage = JavaFXUtil.changeColor(hamsterImage, ViewModelColorConverter.toJavaFxColor(color));
+            var colorizedHamsterImage = JavaFXUtil.changeColor(ladybugImage, ViewModelColorConverter.toJavaFxColor(color));
             images.put("Hamster" + color.name(), colorizedHamsterImage);
         }
     }
 
     private static void loadPropImages() {
-        images.put("Wall", new Image("images/Wall32.png"));
-        for (int i = 1; i <= 12; i++) {
-            images.put(i + "Corn", new Image("images/" + i + "Corn32.png"));
-        }
-        images.put("Clover", new Image("images/Clover.png"));
-        images.put("Mushroom", new Image("images/Mushroom.png"));
+        images.put("Wall", new Image("images/tree.png"));
+        images.put("Clover", new Image("images/clover.png"));
+        images.put("Mushroom", new Image("images/mushroom.png"));
     }
 
     private final ViewModelCell viewModelCell;
