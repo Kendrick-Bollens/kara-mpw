@@ -1,8 +1,13 @@
 package de.unistuttgart.hamster.examples;
 
+import de.unistuttgart.hamster.main.Example;
 import de.unistuttgart.hamster.main.SimpleHamsterGame;
 
 public class Example03 extends SimpleHamsterGame {
+    public Example03() {
+        super(Example.EXAMPLE_3);
+    }
+
     public static void main(final String[] args) {
         createInstance(Example03.class);
     }

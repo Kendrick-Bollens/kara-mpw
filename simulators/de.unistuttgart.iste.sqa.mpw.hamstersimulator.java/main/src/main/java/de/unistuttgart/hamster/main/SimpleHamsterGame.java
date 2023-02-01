@@ -14,7 +14,6 @@ import java.util.Optional;
 import static de.unistuttgart.iste.sqa.mpw.framework.utils.Preconditions.*;
 
 public abstract class SimpleHamsterGame {
-    private static final String DEFAULT_HAMSTER_TERRITORY = "de.unistuttgart.hamster.territories/example01.ter";
 
     protected static void createInstance(Class<? extends SimpleHamsterGame> hamsterProgramClass) {
         try {
@@ -60,8 +59,8 @@ public abstract class SimpleHamsterGame {
      * and setting protected references to contain hamster and
      * the game.
      */
-    public SimpleHamsterGame() {
-        initializeGame();
+    public SimpleHamsterGame(Example example) {
+        initializeGame(example);
         game.startGamePaused();
 
         this.kara = this.game.getTerritory().getDefaultHamster();
@@ -72,10 +71,10 @@ public abstract class SimpleHamsterGame {
      * This resets the game if it was already started. After the territory was loaded, the game is
      * in mode INITIALIZING. To start the game, game.startGame() should be called.
      */
-    protected void initializeGame() {
+    protected void initializeGame(Example example) {
         try {
             game.hardReset();
-            TerritoryLoader.initializeFor(game).loadFromResourceFile(DEFAULT_HAMSTER_TERRITORY);
+            TerritoryLoader.initializeFor(game).loadFromResourceFile(example.getSrc());
         } catch (IOException e) {
             throw new RuntimeException("failed to load the default territory", e);
         }
