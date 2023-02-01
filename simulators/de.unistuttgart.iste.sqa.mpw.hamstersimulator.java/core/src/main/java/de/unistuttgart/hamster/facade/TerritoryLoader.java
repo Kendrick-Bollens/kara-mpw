@@ -56,7 +56,6 @@ public class TerritoryLoader {
     }
 
     private void buildTiles(final String[] lines) {
-        final LinkedList<Location> grainLocations = new LinkedList<Location>();
         Optional<Location> defaultHamsterLocation = Optional.empty();
         Optional<Direction> defaultHamsterDirection = Optional.empty();
 
@@ -70,37 +69,32 @@ public class TerritoryLoader {
                     case '#':
                         createWallAt(currentLocation);
                         break;
-                    case '*':
-                        grainLocations.add(currentLocation);
-                        break;
-                    case '^':
-                        grainLocations.add(currentLocation);
-                        defaultHamsterLocation = Optional.of(currentLocation);
-                        defaultHamsterDirection = Optional.of(Direction.NORTH);
-                        break;
                     case '>':
-                        grainLocations.add(currentLocation);
                         defaultHamsterLocation = Optional.of(currentLocation);
                         defaultHamsterDirection = Optional.of(Direction.EAST);
                         break;
                     case 'v':
-                        grainLocations.add(currentLocation);
                         defaultHamsterLocation = Optional.of(currentLocation);
                         defaultHamsterDirection = Optional.of(Direction.SOUTH);
                         break;
                     case '<':
-                        grainLocations.add(currentLocation);
                         defaultHamsterLocation = Optional.of(currentLocation);
                         defaultHamsterDirection = Optional.of(Direction.WEST);
+                        break;
+                    case '^':
+                        defaultHamsterLocation = Optional.of(currentLocation);
+                        defaultHamsterDirection = Optional.of(Direction.NORTH);
+                        break;
+                    case '*':
+                        territoryBuilder.addMushroomToTile(currentLocation);
                         break;
                     default:
                         throw new RuntimeException("Territory error.");
                 }
             }
         }
-        final int initialGrainCount = Integer.parseInt(lines[this.loadedTerritoryDimensions.getRowCount() + grainLocations.size()]);
-        territoryBuilder.initDefaultLadybug(defaultHamsterLocation.get(), defaultHamsterDirection.get());
-        placeGrain(lines, grainLocations);
+
+        territoryBuilder.initDefaultHamster(defaultHamsterLocation.get(), defaultHamsterDirection.get());
     }
 
     private List<String> readLinesFromTerritoryResourceFile(final String territoryFileName) throws IOException {
@@ -131,13 +125,6 @@ public class TerritoryLoader {
     private void checkNotNull(final Object object) {
         if (object == null) {
             throw new NullPointerException();
-        }
-    }
-
-    private void placeGrain(final String[] lines, final LinkedList<Location> grainLocations) {
-        for (int i = 0; i < grainLocations.size(); i++) {
-            final Location location = grainLocations.get(i);
-            final int count = Integer.parseInt(lines[this.loadedTerritoryDimensions.getRowCount() + i]);
         }
     }
 

@@ -10,7 +10,7 @@ public class Example01 extends SimpleHamsterGame {
     /**
      * How often Paule should repeat its behaviour.
      */
-    private static final int SCENARIO_REPETITION_COUNT = 20;
+    private static final int SCENARIO_REPETITION_COUNT = 200000;
 
     @Override
     protected void run() {
@@ -18,11 +18,24 @@ public class Example01 extends SimpleHamsterGame {
         for (int i = 0; i < SCENARIO_REPETITION_COUNT; i++) {
             kara.write("Hallo!");
             kara.move();
+            kara.putClover();
             kara.move();
             kara.turnLeft();
             kara.turnLeft();
+            kara.turnLeft();
             kara.move();
+            kara.turnLeft();
+            kara.turnLeft();
+            kara.turnLeft();
             kara.move();
+            kara.turnLeft();
+            kara.turnLeft();
+            kara.turnLeft();
+            kara.move();
+            kara.pickClover();
+            kara.turnLeft();
+            kara.move();
+            kara.turnLeft();
             kara.turnLeft();
             kara.turnLeft();
         }

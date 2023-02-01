@@ -1,6 +1,6 @@
 package de.unistuttgart.hamster.main;
 
-import de.unistuttgart.hamster.facade.Ladybug;
+import de.unistuttgart.hamster.facade.Hamster;
 import de.unistuttgart.hamster.facade.TerritoryLoader;
 import de.unistuttgart.hamster.facade.HamsterGame;
 import de.unistuttgart.hamster.ui.JavaFXUI;
@@ -35,7 +35,7 @@ public abstract class SimpleHamsterGame {
      * which is named hamster here. Intentionally, no getter or setter is used
      * as they are introduced only after lecture 2.
      */
-    protected final Ladybug kara;
+    protected final Hamster kara;
 
     /**
      * The game object of this simple game. Can be used to start, stop, reset,
@@ -137,6 +137,7 @@ public abstract class SimpleHamsterGame {
      @ requires true;
      @ ensures game.getCurrentGameMode() == Mode.INITIALIZING;
      @*/
+
     /**
      * Loads the Territory from a resources file.
      * Only resource paths are allowed. E.g. the fileName "territory.ter" represents the file
