@@ -18,16 +18,89 @@ public class Example02 extends SimpleHamsterGame {
     @Override
     protected void run() {
         displayInNewGameWindow();
-
         paula = new Hamster(game.getTerritory(), kara.getLocation(), kara.getDirection());
-        paula.move();
+        kara.move();
         kara.putClover();
-        paula.putClover();
-        paula.move();
+        kara.turnRight();
+        kara.move();
+        kara.move();
+        kara.turnLeft();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.turnLeft();
+        kara.move();
+        kara.move();
+        kara.turnRight();
+        kara.move();
+        kara.move();
+        kara.turnLeft();
+        kara.move();
+        kara.move();
+        kara.putClover();
+        kara.move();
+        kara.move();
 
+        paula.move();
+        paula.pickClover();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.turnLeft();
+        paula.move();
+        paula.move();
+        paula.pickClover();
+
+        kara.turnLeft();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.putClover();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.turnRight();
+        kara.move();
+        kara.move();
+        kara.move();
+        kara.turnRight();
+        kara.move();
+        kara.move();
+        kara.putClover();
+        kara.turnRight();
         kara.move();
         kara.turnLeft();
-        kara.turnLeft();
         kara.move();
+
+        paula.move();
+        paula.move();
+        paula.turnLeft();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.pickClover();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.turnRight();
+        paula.move();
+        paula.move();
+        paula.move();
+        paula.turnRight();
+        paula.move();
+        paula.move();
+        paula.pickClover();
+        paula.turnRight();
+        paula.move();
     }
 }
