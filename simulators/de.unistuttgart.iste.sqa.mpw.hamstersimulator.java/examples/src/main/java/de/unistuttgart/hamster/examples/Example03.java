@@ -21,13 +21,8 @@ public class Example03 extends SimpleHamsterGame {
         loadTerritoryFromResourceFile("de.unistuttgart.hamster.territories/example03.ter");
         startGame();
 
-        turnRight();
+        kara.turnRight();
         kara.move();
-    }
-
-    void turnRight() {
-        kara.turnLeft();
-        kara.turnLeft();
-        kara.turnLeft();
+        kara.move();
     }
 }
