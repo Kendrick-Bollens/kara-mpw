@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_NOYy8CXXEeuHDMx4P4HuOA" name="move" description="Move the hamster one step towards its looking direction.">
-  <imports href="../../model/Hamster.ecore#/"/>
   <imports href="http://www.mpw.uni-stuttgart.de/mpw#/"/>
+  <imports href="../../model/Hamster.ecore#/"/>
   <units xsi:type="henshin:Rule" xmi:id="_CYLcYCXtEeuiY_E2amZoVQ" name="moveNorth">
     <lhs xmi:id="_CYnhQCXtEeuiY_E2amZoVQ" name="Lhs">
       <nodes xmi:id="_dOn6YCXtEeuiY_E2amZoVQ" name="self" outgoing="_9-lUACXuEeuiY_E2amZoVQ">
@@ -466,7 +466,20 @@
     <mappings xmi:id="_LlGbyot4Ee2IoIvB80bdwA" origin="_LlGbtYt4Ee2IoIvB80bdwA" image="_LlGbwIt4Ee2IoIvB80bdwA"/>
     <mappings xmi:id="_LlGby4t4Ee2IoIvB80bdwA" origin="_LlGbtot4Ee2IoIvB80bdwA" image="_LlGbwYt4Ee2IoIvB80bdwA"/>
   </units>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_ed4Q0It-Ee2DGPyCQHrnwg" name="moveMushroomBeforeHamster" subUnits="_n-MJcIt-Ee2DGPyCQHrnwg _ko1-QIt-Ee2DGPyCQHrnwg"/>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_ed4Q0It-Ee2DGPyCQHrnwg" name="move" subUnits="_n-MJcIt-Ee2DGPyCQHrnwg _ko1-QIt-Ee2DGPyCQHrnwg"/>
   <units xsi:type="henshin:PriorityUnit" xmi:id="_ko1-QIt-Ee2DGPyCQHrnwg" name="moveHamster" subUnits="_CYLcYCXtEeuiY_E2amZoVQ _o4x4ICZgEeuiY_E2amZoVQ _p5lN8iZgEeuiY_E2amZoVQ _FUGCUSZhEeuiY_E2amZoVQ"/>
-  <units xsi:type="henshin:PriorityUnit" xmi:id="_n-MJcIt-Ee2DGPyCQHrnwg" name="moveMushroom" subUnits="_zkGWQIt2Ee2IoIvB80bdwA _By9MMIt4Ee2IoIvB80bdwA _LMvmEIt4Ee2IoIvB80bdwA _LlGbsIt4Ee2IoIvB80bdwA"/>
+  <units xsi:type="henshin:PriorityUnit" xmi:id="_n-MJcIt-Ee2DGPyCQHrnwg" name="moveMushroom" subUnits="_zkGWQIt2Ee2IoIvB80bdwA _By9MMIt4Ee2IoIvB80bdwA _LMvmEIt4Ee2IoIvB80bdwA _LlGbsIt4Ee2IoIvB80bdwA _v8YF8KJREe2PR-Yb2Xqdeg"/>
+  <units xsi:type="henshin:Rule" xmi:id="_v8YF8KJREe2PR-Yb2Xqdeg" name="acceptor">
+    <lhs xmi:id="_v8dlgKJREe2PR-Yb2Xqdeg" name="Lhs">
+      <nodes xmi:id="__n8m8KJREe2PR-Yb2Xqdeg">
+        <type href="../../model/Hamster.ecore#//HamsterGame"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_v8dlgaJREe2PR-Yb2Xqdeg" name="Rhs">
+      <nodes xmi:id="__n8m8aJREe2PR-Yb2Xqdeg">
+        <type href="http://www.mpw.uni-stuttgart.de/mpw#//Stage"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="__n8m8qJREe2PR-Yb2Xqdeg" origin="__n8m8KJREe2PR-Yb2Xqdeg" image="__n8m8aJREe2PR-Yb2Xqdeg"/>
+  </units>
 </henshin:Module>
